@@ -22,7 +22,7 @@ export const Users = ({
           value={searchValue}
           onChange={onChangeSearchValue}
           type="text"
-          placeholder="Найти пользователя..."
+          placeholder="Find a user..."
         />
       </div>
       {isLoading ? (
@@ -53,7 +53,7 @@ export const Users = ({
       )}
       {invites.length > 0 && (
         <button onClick={onClickSendInvites} className="send-invite-btn">
-          Отправить приглашение
+          Send an invitation
         </button>
       )}
     </>
